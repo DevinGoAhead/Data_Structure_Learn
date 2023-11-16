@@ -1,0 +1,3 @@
+﻿  test.c
+D:\Xuyang Wei\source\repos\data structure_learn\动态单链表\动态单链表\SList.h(1,1): warning C4828: 文件包含在偏移 0x3e7 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  动态单链表.vcxproj -> D:\Xuyang Wei\source\repos\data structure_learn\动态单链表\x64\Debug\动态单链表.exe
