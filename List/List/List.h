@@ -24,3 +24,5 @@ void ListPopBack(LN* p_head);//尾删
 void ListPopFront(LN* p_head);//头删
 void ListErase(LN* p_head, LTDataType data);//指定位置删除
 void ListPrint(LN* p_head);//打印
+void ClearList(LN* p_head);//清除链表数据
+void DestroyList(LN** p_head);//销毁链表

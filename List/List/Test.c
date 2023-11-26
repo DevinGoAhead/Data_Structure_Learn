@@ -140,3 +140,32 @@ void ListPrint(LN* p_head)
 	}
 	printf("\n");
 }
+
+//清除链表内容，但不破坏链表结构
+void ClearList(LN* p_head)
+{
+	assert(p_head);
+	LN* cur = p_head->next;
+	while (cur != p_head)
+	{
+		LN* del = cur;
+		cur = cur->next;
+		free(del);
+	}
+	p_head->next = p_head->prev = p_head;
+}
+
+//销毁链表
+void DestroyList(LN** p_head)//需要将p_head置空，因此二级指针。当然也可以使用以及指针，但需要给函数设定返回值。根据需要选择即可
+{
+	assert(*p_head);
+	LN* cur = (*p_head)->next;
+	while (cur != *p_head)
+	{
+		LN* del = cur;
+		cur = cur->next;
+		free(del);
+	}
+	free(*p_head);
+	*p_head = NULL;
+}

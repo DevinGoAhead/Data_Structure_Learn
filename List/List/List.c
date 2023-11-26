@@ -55,6 +55,16 @@ void Test1()
 	ListErase(p_head, 11);
 	ListErase(p_head, 11);
 	ListPrint(p_head);
+
+	////清除链表
+	//printf("清除链表\n");
+	//ClearList(p_head);
+	//ListPrint(p_head);
+
+	//清除链表
+	printf("销毁链表\n");
+	DestroyList(&p_head);
+	ListPrint(p_head);
 }
 
 int main()
