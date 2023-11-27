@@ -1,0 +1,4 @@
+﻿  Stack.c
+D:\Xuyang Wei\source\repos\data structure_learn\Stack\Stack\Stack.c(32,4): warning C4013: “memset”未定义；假设外部返回 int
+D:\Xuyang Wei\source\repos\data structure_learn\Stack\Stack\Stack.c(78,23): warning C4028: 形参 1 与声明不同
+  Stack.vcxproj -> D:\Xuyang Wei\source\repos\data structure_learn\Stack\x64\Debug\Stack.exe
